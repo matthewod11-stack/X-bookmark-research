@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Personal config (users create their own)
+config.yml
+
+# Don't commit processed bookmarks
+output/

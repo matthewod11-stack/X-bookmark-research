@@ -1,0 +1,39 @@
+# X Bookmark Research - Configuration
+# Copy this file to: ~/.claude/skills/x-bookmark-research/config.yml
+# Then edit with your personal settings.
+
+# Output directory for processed bookmarks (~ is expanded automatically)
+output_dir: ~/Desktop/Research/twitter-bookmarks
+
+# Your interests and projects (used in "Why This Matters" section)
+# Be specific - these help Claude connect bookmarks to YOUR context
+interests:
+  - "My SaaS product"
+  - "AI/ML workflows"
+  - "Content creation"
+
+# Default research depth: quick | standard | deep
+# - quick: Tweet content + basic analysis + action items
+# - standard: + Author context via bird CLI (recommended)
+# - deep: + Web search for broader context (requires Exa MCP)
+default_depth: standard
+
+# Custom categories (optional)
+# Uncomment and edit to override the default taxonomy.
+# Each category can have subcategories for finer classification.
+# categories:
+#   - name: "AI & Machine Learning"
+#     subcategories:
+#       - "LLM Applications"
+#       - "AI Philosophy"
+#       - "AI Tools"
+#   - name: "Engineering Practices"
+#     subcategories:
+#       - "Documentation"
+#       - "Testing"
+#       - "Architecture"
+#   - name: "Product & Business"
+#     subcategories:
+#       - "Strategy"
+#       - "Growth"
+#       - "Pricing"
