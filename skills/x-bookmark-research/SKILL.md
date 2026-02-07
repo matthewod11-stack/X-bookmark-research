@@ -22,9 +22,10 @@ When you bookmark interesting tweets, this skill processes them into organized m
 
 ### Required
 
-- **[bird CLI](https://github.com/ryo-ma/bird)** - Command-line tool for Twitter/X API access
+- **[bird CLI](https://github.com/steipete/bird)** - Command-line tool for Twitter/X API access
+  - Install: `npm install -g @steipete/bird`
+  - Uses cookie authentication from your browser (Safari/Chrome/Firefox)
   - Used to fetch bookmarks, read tweets, and look up author profiles
-  - Must be authenticated before first use (`bird auth`)
 
 ### Optional
 

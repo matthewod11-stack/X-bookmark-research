@@ -7,7 +7,7 @@ Stop losing insights in your bookmark graveyard. This slash command fetches your
 ## Prerequisites
 
 - **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** - Anthropic's CLI for Claude
-- **[bird CLI](https://github.com/ryo-ma/bird)** - Twitter/X API client (must be authenticated)
+- **[bird CLI](https://github.com/steipete/bird)** - Twitter/X API client (`npm install -g @steipete/bird`)
 - **Exa MCP Server** *(optional)* - Only needed for `--depth deep` web research mode
 
 ## Installation
