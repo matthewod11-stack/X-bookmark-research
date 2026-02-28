@@ -15,7 +15,7 @@ Stop losing insights in your bookmark graveyard. This slash command fetches your
 ### Option 1: Install Script
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/X-bookmark-research.git
+git clone https://github.com/matthewod11-stack/X-bookmark-research.git
 cd X-bookmark-research
 ./install.sh
 ```
